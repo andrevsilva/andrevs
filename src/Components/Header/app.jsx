@@ -17,7 +17,7 @@ function Header() {
       I18N_STORAGE_KEY,
       event.target.value
     )
-    window.location = window.location
+    window.location = window.location.href
   }
 
   return (
