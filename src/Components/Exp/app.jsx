@@ -16,9 +16,7 @@ function Exp() {
 
   const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
-    padding: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     backgroundImage: "linear-gradient(to bottom, #2D0065, #450063, #5D0060)",
     backgroundClip: "content-box",
     webkitBackgroundClip: "content-box",

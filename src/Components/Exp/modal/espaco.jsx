@@ -36,7 +36,6 @@ const Backdrop = styled('div')`
 `;
 
 const style = {
-   // width: 400,
     border: '2px solid #fff',
     p: 2,
     px: 4,
@@ -45,7 +44,6 @@ const style = {
     backgroundClip: "content-box",
     webkitBackgroundClip: "content-box",
     webkitTextFillColor: "transparent",
-    //height: "400px",
     color: "#FFF",
     fontFamily: " 'Roboto Mono', monospace ",
     fontSize: "14px",
