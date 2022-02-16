@@ -48,7 +48,9 @@ const style = {
     fontFamily: " 'Roboto Mono', monospace ",
     fontSize: "14px",
     lineHeight: "32px",
-    width: "70%"
+    width: "70%",
+    maxHeight: "100%",
+    overflow: "auto"
 };
 
 const button = {
@@ -70,8 +72,8 @@ const button = {
         BackdropComponent={Backdrop}
       >
         <Box sx={style}>
-            <h1 style={{textAlign: "center"}}>{i18n.t('expEspaco.title')}</h1>
-              <h3 style={{textAlign: "center"}}>{i18n.t('expEspaco.temp')}</h3>
+            <h1 style={{textAlign: "center", padding: 20}}>{i18n.t('expEspaco.title')}</h1>
+              <h3 style={{textAlign: "center", padding: 20}}>{i18n.t('expEspaco.temp')}</h3>
               <p style={{padding: 20}}>{i18n.t('expEspaco.desc')}</p>
               <h3 style={{padding: 20}}>{i18n.t('expEspaco.tec')}</h3>
         </Box>

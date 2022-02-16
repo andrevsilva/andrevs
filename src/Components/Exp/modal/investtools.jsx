@@ -46,7 +46,9 @@ const style = {
     fontFamily: " 'Roboto Mono', monospace ",
     fontSize: "14px",
     lineHeight: "32px",
-    width: "70%"
+    width: "70%",
+    maxHeight: "100%",
+    overflow: "auto"
 };
 
 const button = {
@@ -68,12 +70,12 @@ const button = {
         BackdropComponent={Backdrop}
       >
         <Box sx={style}>
-            <h1 style={{textAlign: "center"}}>{i18n.t('expInvesttools.title')}</h1>
-              <h3 style={{textAlign: "center"}}>{i18n.t('expInvesttools.temp')}</h3>
+            <h1 style={{textAlign: "center", padding: 20}}>{i18n.t('expInvesttools.title')}</h1>
+              <h3 style={{textAlign: "center", padding: 20}}>{i18n.t('expInvesttools.temp')}</h3>
               <p style={{padding: 20}}>{i18n.t('expInvesttools.desc')}</p>
-              <h3 style={{paddingLeft: 20}}>{i18n.t('expInvesttools.tec')}</h3>
-              <h3 style={{paddingLeft: 20}}>{i18n.t('expInvesttools.metod')}</h3>
-              <h3 style={{paddingLeft: 20}}>{i18n.t('expInvesttools.ferramentas')}</h3>
+              <h3 style={{padding: 20}}>{i18n.t('expInvesttools.tec')}</h3>
+              <h3 style={{padding: 20}}>{i18n.t('expInvesttools.metod')}</h3>
+              <h3 style={{padding: 20}}>{i18n.t('expInvesttools.ferramentas')}</h3>
         </Box>
       </StyledModal>
     </div>
