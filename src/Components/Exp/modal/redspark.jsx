@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 
 import { i18n } from '../../Translate/i18n';
 
-function Espaco() {
+function Investtools() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -76,18 +76,19 @@ function Espaco() {
       >
         <Box sx={style}>
           <h1 style={{ textAlign: 'center', padding: 20 }}>
-            {i18n.t('expEspaco.title')}
+            {i18n.t('expRedspark.title')}
           </h1>
           <h3 style={{ textAlign: 'center', padding: 20 }}>
-            {i18n.t('expEspaco.temp')}
+            {i18n.t('expRedspark.temp')}
           </h3>
-          <p style={{ padding: 20 }}>{i18n.t('expEspaco.desc')}</p>
-          <h3 style={{ padding: 20 }}>{i18n.t('expEspaco.tec')}</h3>
-          <h3 style={{ padding: 20 }}>{i18n.t('expEspaco.ferramentas')}</h3>
+          <p style={{ padding: 20 }}>{i18n.t('expRedspark.desc')}</p>
+          <h3 style={{ padding: 20 }}>{i18n.t('expRedspark.tec')}</h3>
+          <h3 style={{ padding: 20 }}>{i18n.t('expRedspark.metod')}</h3>
+          <h3 style={{ padding: 20 }}>{i18n.t('expRedspark.ferramentas')}</h3>
         </Box>
       </StyledModal>
     </div>
   );
 }
 
-export default Espaco;
+export default Investtools;
